@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;600&display=swap');
+body {
+    height: 100%;
+    width: 100%;
+    background: rgb(0,57,25);
+    background: linear-gradient(90deg, rgb(0, 105, 46) 0%, rgba(0,110,49,1) 50%, rgba(0,105,46,1) 100%);
+}
+.pfp {
+    height: 150px;
+    border-color: #11111b;
+    border-style: double;
+    border-radius: 75px;
+}
+.maincontent, .aboutcontent, button{
+    color: #11111B;
+    font-family: Unbounded, Regular;
+    text-align: center;
+    vertical-align: middle;
+}
+.buttons {
+    appearance: none;
+    background-color: #11111B;
+    border: 2px solid #11111B;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #cdd6f4;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+}
+      
+      .buttons:disabled {
+        pointer-events: none;
+      }
+      
+      .buttons:hover {
+        color: #cdd6f4;
+        background-color: #11111B;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+      }
+      
+      .buttons:active {
+        box-shadow: none;
+        transform: translateY(0);
+      }
+    .desc {
+        text-align: center;
+        width: 400px;
+        margin: auto;
+    }
